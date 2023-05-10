@@ -1,0 +1,88 @@
+2023-05-04 07:25:43 pid:1 Error: Call to undefined function slee() in D:\PHP\test\push.php:21
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\AsyncTcpConnection), 'Received messag...')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\push.php(29): Workerman\Worker::runAll()
+#6 {main}
+2023-05-04 07:25:46 pid:1 Error: Call to undefined function slee() in D:\PHP\test\push.php:21
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\AsyncTcpConnection), 'Received messag...')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\push.php(29): Workerman\Worker::runAll()
+#6 {main}
+2023-05-04 08:13:08 pid:1 Error: Call to undefined function p() in D:\PHP\test\notify.php:21
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), 'hello')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\notify.php(28): Workerman\Worker::runAll()
+#6 {main}
+2023-05-04 08:13:22 pid:1 Error: Call to undefined function p() in D:\PHP\test\notify.php:21
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), 'hello')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\notify.php(28): Workerman\Worker::runAll()
+#6 {main}
+2023-05-04 08:15:25 pid:1 Error: Call to undefined method Closure::send() in D:\PHP\test\notify.php:22
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), 'hello')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\notify.php(30): Workerman\Worker::runAll()
+#6 {main}
+2023-05-04 09:23:02 pid:1 Error: Call to undefined function sendMessageByUid() in D:\PHP\test\notify.php:46
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), '0')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\notify.php(63): Workerman\Worker::runAll()
+#6 {main}
+2023-05-04 11:01:50 pid:1 Error: Call to undefined function sendMessageByUid() in D:\PHP\test\notify.php:46
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), 'hello')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\notify.php(64): Workerman\Worker::runAll()
+#6 {main}
+2023-05-05 06:37:32 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in D:\PHP\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 D:\PHP\test\notify.php(83): Workerman\Connection\TcpConnection->send(NULL)
+#2 D:\PHP\test\notify.php(49): sendMessageByUid('hello', NULL)
+#3 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), 'hello')
+#4 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#5 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#6 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#7 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#8 D:\PHP\test\notify.php(88): Workerman\Worker::runAll()
+#9 {main}
+2023-05-05 06:52:34 pid:1 Error: Call to undefined function p() in D:\PHP\test\notify.php:42
+Stack trace:
+#0 D:\PHP\test\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), 'hello')
+#1 D:\PHP\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 D:\PHP\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#3 D:\PHP\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#4 D:\PHP\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 D:\PHP\test\notify.php(96): Workerman\Worker::runAll()
+#6 {main}
+2023-05-05 06:52:50 pid:1 Worker process terminated
+2023-05-05 06:53:12 pid:1 Worker process terminated
+2023-05-05 06:54:11 pid:1 Worker process terminated
+2023-05-05 06:54:44 pid:1 Worker process terminated

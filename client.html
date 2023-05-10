@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PHP WebSocket Chat</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<body>
+    <div id="chat">
+        <input type="text" id="input" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="msg"></div>
+    <script>
+        var conn = new WebSocket('ws://127.0.0.1:1234');
+
+        conn.onopen = function() {
+        	 let msg='{"uid":1,"mssage":{"type":"login"},"to":"1"}';
+             console.log(msg);
+             conn.send(msg);
+            console.log('Connected to server');
+        };
+
+        conn.onmessage = function(e) {
+             console.log('Received message: ' + e.data);
+           $('#msg').append(e.data+'<br >');
+             
+        };
+
+        function sendMessage() {
+             let data=$('#input').val();
+             conn.send(data);
+        }
+    </script>
+</body>
+</html>
